@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="title" content="JUHUU" />
+  <meta name="description"
+    content="We are a company that was founded with the aim of creating a digital IoT app ecosystem without barriers. We all unite the common passion to create something new and to provide our customers an optimal system for their products." />
+  <meta name="keywords" content="juhuu, iot, bikebox" />
+  <meta name="robots" content="index, follow" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="language" content="German" />
+  <link rel="stylesheet" href="./index.css" />
+  <!-- Add these links in your <head> section -->
+  <!-- juhuu icon -->
+  <link rel="icon" href="./img/juhuu_logo.png" type="image/x-icon" />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+
+  <!-- MDB -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    class="bootstrap-5" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Varela+Round&display=swap" rel="stylesheet" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+  <script>
+    $(document).ready(function () {
+      $(".carousel").carousel();
+    });
+  </script>
+  <title>JUHUU</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <nav class="navbar1">
+      <div class="container-xxl navbar2">
+        <input type="checkbox" id="menu-checkbox" class="menu-checkbox" />
+        <label for="menu-checkbox" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <div class="logo text-center">
+          <a href="./index.html"><img src="./Images/Navbar Logo/juhuu_logo.webp" alt="Logo" /></a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="dropbtn">
+              App <i class="fas fa-chevron-down liarrow"></i>
+            </a>
+            <div class="dropdown-content" id="appDropdown">
+              <a href="./app-user.html">User</a>
+              <a href="./app-company.html">Unternehmen</a>
+            </div>
+          </li>
+          <li><a href="./produkte.html" id="active">Produkte</a></li>
+          <li><a href="./partner.html">Partner</a></li>
+          <li><a href="./uber-uns.html">Über uns</a></li>
+        </ul>
+
+        <ul style="
+              margin-left: auto;
+              justify-content: center;
+              align-items: center;
+              margin-bottom: 0;
+              padding: 0;
+            ">
+          <li class="custom-dropdown">
+            <a href="#" class="custom-dropbtn">
+              <img src="/flags/germany-flag-48879.png" alt="" class="flags" />
+              <i class="fas fa-chevron-down"></i>
+            </a>
+            <div class="custom-dropdown-content" id="appDropdown">
+              <a href="./en/BikeLoop.html">
+                <img src="/flags/american-us-flag-icon.png" alt="" class="flags2" />
+                <span>en</span>
+              </a>
+              <a href="#">
+                <img src="/flags/germany-flag-48879.png" alt="" class="flags2" />
+                <span>de-at</span>
+              </a>
+            </div>
+          </li>
+          <a class="get-in-touch" href="./get_in_touch.html">Get in touch</a>
+        </ul>
+      </div>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var dropdown = document.querySelector(".custom-dropdown");
+          var dropdownContent = document.querySelector(
+            ".custom-dropdown-content"
+          );
+
+          dropdown.addEventListener("click", function () {
+            if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+            } else {
+              dropdownContent.style.display = "block";
+            }
+          });
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+          var dropdown = document.querySelector(".dropdown");
+          var dropdownContent = document.querySelector(".dropdown-content");
+
+          dropdown.addEventListener("click", function () {
+            if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+            } else {
+              dropdownContent.style.display = "block";
+            }
+          });
+        });
+      </script>
+    </nav>
+
+    <!-- section 1 -->
+    <div class="container-fluid mainmc detailed-product-main">
+      <h1>BikeLoop</h1>
+      <div class="container-mc">
+        <div class="newdcmc">
+          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item flip active">
+                <div class="mc">
+                  <img src="./Images/Detailed-Product-Page/bike-loop.webp" alt="" class="apps" />
+                </div>
+              </div>
+              <div class="carousel-item flip">
+                <div class="mc">
+                  <img src="./Images/Detailed-Product-Page/bike-loop.webp" alt="" class="apps" />
+                </div>
+              </div>
+              <div class="carousel-item flip">
+                <div class="mc">
+                  <img src="./Images/Detailed-Product-Page/bike-loop.webp" alt="" class="apps" />
+                </div>
+              </div>
+              <div class="carousel-item flip">
+                <div class="mc">
+                  <img src="./Images/Detailed-Product-Page/bike-loop.webp" alt="" class="apps" />
+                </div>
+              </div>
+              <div class="carousel-item flip">
+                <div class="mc">
+                  <img src="./Images/Detailed-Product-Page/bike-loop.webp" alt="" class="apps" />
+                </div>
+              </div>
+              <div class="carousel-item flip">
+                <div class="mc">
+                  <img src="./Images/Detailed-Product-Page/bike-loop.webp" alt="" class="apps" />
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <a class="arrowmc is-left w-inline-blockmc" href="#carouselExampleIndicators2" role="button"
+                data-slide="prev">
+                <img
+                  src="https://assets.website-files.com/62d52b6d074c2e318f479724/62d90af20b694c03b0d2ecfa_arrow-testimonial.svg"
+                  loading="lazy" alt="" />
+
+                <span class="sr-only">Previous</span>
+              </a>
+            </div>
+            <div class="box">
+              <a class="arrowmc is-right w-inline-blockmc" href="#carouselExampleIndicators2" role="button"
+                data-slide="next">
+                <img
+                  src="https://assets.website-files.com/62d52b6d074c2e318f479724/62d90af20b694c03b0d2ecfa_arrow-testimonial.svg"
+                  loading="lazy" alt="" />
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section 2 -->
+    <div class="full mc2">
+      <div class="detailed-product-Sec2 container-mc2">
+        <div class="detailed-product-left">
+          <h1 id="BikeBox-sec2-h1">Kurzbeschreibung </h1>
+          <div class="detailed-product-text-container">
+            <p id="BikeBox-sec2-pp">
+              Der BikeLoop ist die optimale Lösung für sichere Fahrradlagerung in Wohnkomplexen oder Firmengebäuden. Ausgestattet mit einer Ladeoption und für die Wandmontage konzipiert, bietet dieses Schlosssystem eine bequeme und sichere Art, Fahrräder zu lagern und zu laden.  
+            </p>
+          </div>
+        </div>
+        <div class="detailed-product-right">
+          <h1 id="BikeBox-sec2-h1_h1">Informationen</h1>
+          <div class="detailed-product-text-container-right">
+            <!-- ***********faq************ -->
+            <div class="container">
+              <div class="faq1 faq2">
+                <div class="faq">
+                  <div class="accordion" id="accordiondetail">
+                    <div class="faqpart">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#AppFeatures" aria-expanded="true" aria-controls="AppFeatures">
+                           <p style="margin: 0px;"  id="BikeBox-sec2-p"> App Features</p>
+                          </button>
+                        </h2>
+                        <div id="AppFeatures" class="accordion-collapse collapse" data-bs-parent="#accordiondetail">
+                          <div class="accordion-body">
+                            <div class="app-features-logo1">
+                              
+                              <div class="app-features-logo1-text" style="font-weight: bold;">
+                                <p style="text-align: left; margin-bottom: 0px;"  id="BikeBox-sec2-p_p1">
+                                  1) Kurzzeitmiete 
+                                </p>
+                                <p style="text-align: left; margin-bottom: 0px;"  id="BikeBox-sec2-p_p2">
+                                  2)Langzeitmiete 
+
+                                </p>
+                                <p style="text-align: left; margin-bottom: 0px;"  id="BikeBox-sec2-p_p3">
+                                  3) Reservieren 
+                                <p style="text-align: left; margin-bottom: 0px;"  id="BikeBox-sec2-p_p4">4) Unternehemensaccounts </p>
+                              </div>
+                            
+
+                           
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="faqpart">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#HardwareFunktionen" aria-expanded="true"
+                            aria-controls="HardwareFunktionen"id="BikeBox-sec2-p_p5">
+                            Hardware Funktionen
+                          </button>
+                        </h2>
+                        <div id="HardwareFunktionen" class="accordion-collapse collapse"
+                          data-bs-parent="#accordiondetail">
+                          <div class="accordion-body">
+                            <div class="hardware-function-section" style="font-weight: bold;">
+                              
+                                <p style="margin-bottom: 0px;"  id="BikeBox-sec2-p_p6">1) Kurzfristiger Diebstahlschutz    </p> 
+                              
+                              <p style="margin-bottom: 0px;"  id="BikeBox-sec2-p_p7">2) Kein Vandalismus oder Witterungsschutz    </p>
+                              <p style="font-size: 18px; margin-bottom: 0px;" id="BikeBox-sec2-p_p20">3) Optionale Ladesäule  </p>
+                              <p style="margin-bottom: 0px;"  id="BikeBox-sec2-p_p8">4) Elektrisches Schloss   </p>
+                              <p style="margin-bottom: 0px;"  id="BikeBox-sec2-p_p8_1">5) Maße: 1000 x 120 x 800 mm   </p>
+                              <p style="margin-bottom: 0px;"  id="BikeBox-sec2-p_p8_2">6) Für 2 Bikes  </p>
+                            
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="faqpart">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#Hersteller" aria-expanded="true" aria-controls="Hersteller">
+                           <p style="margin: 0px;"  id="BikeBox-sec2-p_p9">Hersteller</p> 
+                          </button>
+                        </h2>
+                        <div id="Hersteller" class="accordion-collapse collapse" data-bs-parent="#accordiondetail">
+                          <div class="accordion-body">
+                            <div class="hersteller-main">
+                              <div class="Herstellwe-logo" >
+                                <img src="./img/juhuu_logo.png" alt="" style="visibility: hidden; display: none;"/>
+                                <p style="margin-top: 15px;">(here should be a field, where the logo of the fabricator is places) </p>
+                              </div>
+                              <div class="Herstellwe-text">
+                                <h2 style="font-size: 18px; font-weight: 600" id="BikeBox-sec2-p_p5">
+                                  Herstellerinfos
+                                </h2>
+                                <p style="margin: 0px;"  id="BikeBox-sec2-p_p10">Adresse:</p>
+                                <p style="margin: 0px;"  id="BikeBox-sec2-p_p12">Land:</p>
+                                <p style="margin: 0px;"  id="BikeBox-sec2-p_p13">Telefon:</p>
+                                <p style="margin: 0px;"  id="BikeBox-sec2-p_p14">E-Mail:</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-mp6">
+      <div class="arrowmduphome">
+        <img src="./arrowmdup2.png" alt="" />
+      </div>
+    </div>
+
+    <section class="container3 product-detailed-container3 container-sm">
+      <h1 class="sec3heading" style="font-weight: 600" id="BikeBox-sec3-h1">Referenzen</h1>
+      <div class="sec4main">
+        <div class="S3-main1 container-sm">
+          <div class="main1-text">
+            <h1 class="main-h1" id="BikeBox-sec3-h1_h1">Gemeinden</h1>
+            <p style="text-align: center" id="BikeBox-sec3-p_p1">
+              Bei JUHUU bieten wir mehr als nur eine App – wir sind Dein
+              Zugang zu einer Welt bereits integrierter IoT-Hardware. Als
+              Betreiber kannst Du unsere Plattform nutzen, um eine Vielzahl
+              von Produkten zu entdecken, die alle nahtlos mit der JUHUU App
+              funktionieren. Ob eigene Innovationen oder Lösungen unserer
+              Partner, finde genau das, was Du brauchst, um Deinen Kunden ein
+              erstklassiges Erlebnis zu bieten.
+            </p>
+          </div>
+          <div class="main1-pic"></div>
+        </div>
+        <div class="S3-main2 container-sm">
+          <div class="main1-text">
+            <h1 class="main-h1" id="BikeBox-sec3-h1_h2">Mistellbach</h1>
+            <p style="text-align: center" id="BikeBox-sec3-p_p2">
+              Bist Du ein Innovator mit einem einzigartigen IoT-Produkt? Werde
+              ein JUHUU App Partner und bringe Deine Entwicklung auf die
+              nächste Ebene. Durch die Integration in die JUHUU App erhältst
+              Du Zugang zu unserer Nutzerbasis und profitierst von den
+              Vorteilen unserer Plattform. Werde jetzt Partner!
+            </p>
+          </div>
+          <div class="main1-pic"></div>
+        </div>
+        <div class="S3-main3 container-sm">
+          <div class="main1-text">
+            <h1 class="main-h1" id="BikeBox-sec3-h1_h3">Mobilitätsanbieter Europaweit</h1>
+            <p style="text-align: center" id="BikeBox-sec3-p_p3">
+              Auf der Suche nach einer umfassenden Mobilitätslösung? JUHUU ist
+              mehr als nur eine App – wir sind Dein Tor zu europaweiter
+              Mobilität. Neben unseren integrierten Anbietern erhältst Du
+              Zugang zu Informationen über Scooter, Fahrräder und weitere
+              Mobilitätsoptionen von zahlreichen externen Anbietern. Finde
+              Standorte, Verfügbarkeiten und werde direkt zum richtigen
+              Anbieter weitergeleitet.
+            </p>
+          </div>
+          <div class="main1-pic">
+            <!-- this is a box -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- //MARK: section5 -->
+    <div class="container">
+      <div class="faq1">
+        <h1 id="BikeBox-FAQ-h1">FAQ</h1>
+        <div class="faq">
+          <div class="accordion" id="accordionfaq">
+            <div class="faqpart">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="BikeBox-FAQ-h1_h1">
+                    Wie sicher ist die BikeBox gegen Diebstahl und Vandalismus?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionfaq">
+                  <div class="accordion-body">
+                    <p id="BikeBox-FAQ-p_p1">Bist Du ein Innovator mit einem einzigartigen Produkt?
+                    Werde ein JUHUU App Partner und bringe Deine Entwicklung
+                    auf die nächste Ebene. Durch die Integration in die JUHUU
+                    App erhältst Du Zugang zu unserer Nutzerbasis und
+                    profitierst von den Vorteilen unserer Plattform.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="faqpart">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" id="BikeBox-FAQ-h1_h2">
+                    Kann die BikeBox an meine Unternehmensfarben angepasst werden?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionfaq">
+                  <div class="accordion-body">
+                    <p id="BikeBox-FAQ-p_p2">Bist Du ein Innovator mit einem einzigartigen Produkt?
+                    Werde ein JUHUU App Partner und bringe Deine Entwicklung
+                    auf die nächste Ebene. Durch die Integration in die JUHUU
+                    App erhältst Du Zugang zu unserer Nutzerbasis und
+                    profitierst von den Vorteilen unserer Plattform.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="faqpart">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree" id="BikeBox-FAQ-h1_h3">
+                    Wie viele Fahrräder passen in eine BikeBox?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionfaq">
+                  <div class="accordion-body">
+                    <p id="BikeBox-FAQ-p_p3">Bist Du ein Innovator mit einem einzigartigen Produkt?
+                    Werde ein JUHUU App Partner und bringe Deine Entwicklung
+                    auf die nächste Ebene. Durch die Integration in die JUHUU
+                    App erhältst Du Zugang zu unserer Nutzerbasis und
+                    profitierst von den Vorteilen unserer Plattform.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="faqpart">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour" id="BikeBox-FAQ-h1_h4">
+                    Gibt es eine Option für das Laden von E-Bikes?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionfaq">
+                  <div class="accordion-body">
+                    <p id="BikeBox-FAQ-p_p4">Bist Du ein Innovator mit einem einzigartigen Produkt?
+                    Werde ein JUHUU App Partner und bringe Deine Entwicklung
+                    auf die nächste Ebene. Durch die Integration in die JUHUU
+                    App erhältst Du Zugang zu unserer Nutzerbasis und
+                    profitierst von den Vorteilen unserer Plattform.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="faqpart">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive" id="BikeBox-FAQ-h1_h5">
+                    Ist die Installation der BikeBox im Preis inbegriffen?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionfaq">
+                  <div class="accordion-body">
+                    <p id="BikeBox-FAQ-p_p5"> Bist Du ein Innovator mit einem einzigartigen Produkt?
+                    Werde ein JUHUU App Partner und bringe Deine Entwicklung
+                    auf die nächste Ebene. Durch die Integration in die JUHUU
+                    App erhältst Du Zugang zu unserer Nutzerbasis und
+                    profitierst von den Vorteilen unserer Plattform.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="faqpart">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix" id="BikeBox-FAQ-h1_h6">
+                    Wie wird die BikeBox bei extremen Wetterbedingungen performen?
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionfaq">
+                  <div class="accordion-body">
+                    <p id="BikeBox-FAQ-p_p6"> Bist Du ein Innovator mit einem einzigartigen Produkt?
+                    Werde ein JUHUU App Partner und bringe Deine Entwicklung
+                    auf die nächste Ebene. Durch die Integration in die JUHUU
+                    App erhältst Du Zugang zu unserer Nutzerbasis und
+                    profitierst von den Vorteilen unserer Plattform.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section7 -->
+    <div id="logos-home-page" class="sliderpart">
+      <div class="sec6head">
+        <h1 id="home-sec5-h1">Bekannt aus</h1>
+      </div>
+      <div class="slider">
+        <div class="slide-track">
+          <!-- Duplicate the slide content for smooth continuous scrolling -->
+          <div class="slide">
+            <img
+              class="alignnone size-full wp-image-13024"
+              src="./Images/Sponser Companies/Burtkasten.webp"
+              alt=""
+              width="250px"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13023"
+              src="./Images/Sponser Companies/Derstandard.webp"
+              alt=""
+              width="250px"
+              height="auto"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13022"
+              src="./Images/Sponser Companies/NÖN.webp"
+              alt=""
+              width="150px"
+              height="auto"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13021"
+              src="./Images/Sponser Companies/Road 20 map.webp"
+              alt=""
+              width="200px"
+            />
+          </div>
+          <!-- Duplicate the slides here -->
+          <div class="slide">
+            <img
+              class="alignnone size-full wp-image-13024"
+              src="./Images/Sponser Companies/Burtkasten.webp"
+              alt=""
+              width="250px"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13023"
+              src="./Images/Sponser Companies/Derstandard.webp"
+              alt=""
+              width="250px"
+              height="auto"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13022"
+              src="./Images/Sponser Companies/NÖN.webp"
+              alt=""
+              width="150px"
+              height="auto"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13021"
+              src="./Images/Sponser Companies/Road 20 map.webp"
+              alt=""
+              width="200px"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-full wp-image-13024"
+              src="./Images/Sponser Companies/Burtkasten.webp"
+              alt=""
+              width="250px"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13023"
+              src="./Images/Sponser Companies/Derstandard.webp"
+              alt=""
+              width="250px"
+              height="auto"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13022"
+              src="./Images/Sponser Companies/NÖN.webp"
+              alt=""
+              width="150px"
+              height="auto"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13021"
+              src="./Images/Sponser Companies/Road 20 map.webp"
+              alt=""
+              width="200px"
+            />
+          </div>
+          <!-- Duplicate the slides here -->
+          <div class="slide">
+            <img
+              class="alignnone size-full wp-image-13024"
+              src="./Images/Sponser Companies/Burtkasten.webp"
+              alt=""
+              width="250px"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13023"
+              src="./Images/Sponser Companies/Derstandard.webp"
+              alt=""
+              width="250px"
+              height="auto"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13022"
+              src="./Images/Sponser Companies/NÖN.webp"
+              alt=""
+              width="150px"
+              height="auto"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13021"
+              src="./Images/Sponser Companies/Road 20 map.webp"
+              alt=""
+              width="200px"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-full wp-image-13024"
+              src="./Images/Sponser Companies/Burtkasten.webp"
+              alt=""
+              width="250px"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13023"
+              src="./Images/Sponser Companies/Derstandard.webp"
+              alt=""
+              width="250px"
+              height="auto"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13022"
+              src="./Images/Sponser Companies/NÖN.webp"
+              alt=""
+              width="150px"
+              height="auto"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13021"
+              src="./Images/Sponser Companies/Road 20 map.webp"
+              alt=""
+              width="200px"
+            />
+          </div>
+          <!-- Duplicate the slides here -->
+          <div class="slide">
+            <img
+              class="alignnone size-full wp-image-13024"
+              src="./Images/Sponser Companies/Burtkasten.webp"
+              alt=""
+              width="250px"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13023"
+              src="./Images/Sponser Companies/Derstandard.webp"
+              alt=""
+              width="250px"
+              height="auto"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13022"
+              src="./Images/Sponser Companies/NÖN.webp"
+              alt=""
+              width="150px"
+              height="auto"
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="alignnone size-medium wp-image-13021"
+              src="./Images/Sponser Companies/Road 20 map.webp"
+              alt=""
+              width="200px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="container6">
+      <div class="team-arrow">
+        <img src="/team-arrow.png" alt="" />
+      </div>
+      <div class="newdc">
+        <div
+          id="carouselExampleIndicators2"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item flip active">
+              <div class="team1">
+                <img
+                  src="./Images/Footer/Ben Müller-Niklas.webp"
+                  alt="Ben Müller-Niklas"
+                  class="apps"
+                />
+                <h1>Ben Müller-Niklas</h1>
+                <h2 id="home-sec6-h2">JUHUU</h2>
+                <h4 id="home-sec6-h4">CEO</h4>
+
+                <p id="home-sec6-p1">
+                  "Im Sharing-Markt steckt so viel Potenzial, das oft
+                  ungenutzt bleibt. Die Herausforderung? Kosten Komplexität
+                  und Marktdurchdringung. Bei JUHUU öffnen Türen zu neuen
+                  Kunden, mehr Umsatz und einer besseren Markensichtbarkeit.
+                  Einfach, günstig, zukunftsorientiert!"
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item flip">
+              <div class="team1">
+                <img
+                  src="./Images/Footer/Moritz-Wallner.webp"
+                  alt="Moritz-Wallner"
+                  class="apps"
+                />
+
+                <h1>Moritz Wallner</h1>
+                <h2 id="home-sec6-h2_1">JUHUU</h2>
+                <h4 id="home-sec6-h4_1">CTO</h4>
+
+                <p id="home-sec6-p_1">
+                  “Technische Stolpersteine wie Software-Integration,
+                  Datensicherheit oder Skalierbarkeit können echte Zeit- und
+                  Geldfresser sein. Wir bei JUHUU nehmen euch diese Hürden ab,
+                  damit ihr euch auf das konzentrieren könnt, was ihr am
+                  besten könnt: euer Business. Mit unserer Technologie als
+                  Rückhalt seid ihr für die Zukunft gerüstet und könnt eure
+                  Dienste schneller und sicherer anbieten.“
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item flip">
+              <div class="team1">
+                <img
+                  src="./Images/Footer/Michael-Übermasser.webp"
+                  alt="Michael Übermasser"
+                  class="apps"
+                />
+                <h1>Michael Übermasser</h1>
+
+                <h2 id="home-sec6-h2_2">JUHUU</h2>
+                <h4 id="home-sec6-h4_2">CPM</h4>
+
+                <p id="home-sec6-p_2">
+                  “Strategie ist der Schlüssel zum Erfolg, vor allem in einem
+                  so dynamischen Markt wie dem Sharing-Business. Was mich an
+                  dieser Firma überzeugt, ist die klare Vision und die
+                  innovativen Lösungen, die echte Probleme lösen. Hier wird
+                  nicht nur über die Zukunft gesprochen – hier wird sie
+                  gemacht. Das ist genau der Ort, an dem ich meine Expertise
+                  einbringen möchte, um gemeinsam Großes zu erreichen.“
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item flip">
+              <div class="team1">
+                <img src="./Images/Footer/User.webp" alt="Quentin Binder" class="apps" />
+                <h1>User</h1>
+                <h2 style="visibility: hidden" id="home-sec6-h2_3">JUHUU</h2>
+                <h4 id="home-sec6-h4_3">End-User</h4>
+
+                <p id="home-sec6-p2_3">
+                  "Die JUHUU App ist super praktisch, ich finde schnell, was
+                  ich suche. Die Bedienung ist einfach und ich spare Zeit. Ich
+                  freue mich schon darauf, wenn noch mehr Dienste direkt in
+                  der App buchbar sind!"
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item flip">
+              <div class="team1">
+                <img
+                  src="./Images/Footer/Marc Müller-Niklas.webp"
+                  alt="Marc Müller-Niklas"
+                  class="apps"
+                />
+                <h1>Marc Müller-Niklas</h1>
+                <h2 id="home-sec6-h2_4">JUHUU</h2>
+                <h4 id="home-sec6-h4_4">Sales & Marketing</h4>
+
+                <p id="home-sec6-p_4">
+                  “Bei JUHUU bekommt ihr das volle Paket: Kosteneffizienz,
+                  stärkere Markenpräsenz und einen zusätzlichen Verkaufskanal.
+                  Wir machen eure Marke sichtbar und bringen sie direkt zu den
+                  Leuten, die sie brauchen. Mehr Kunden, weniger Aufwand. Das
+                  ist JUHUU."
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <a
+              class="arrow is-left w-inline-block"
+              href="#carouselExampleIndicators2"
+              role="button"
+              data-slide="prev"
+            >
+              <img
+                src="https://assets.website-files.com/62d52b6d074c2e318f479724/62d90af20b694c03b0d2ecfa_arrow-testimonial.svg"
+                loading="lazy"
+                alt=""
+              />
+
+              <span class="sr-only">Previous</span>
+            </a>
+          </div>
+          <div class="box">
+            <a
+              class="arrow is-right"
+              href="#carouselExampleIndicators2"
+              role="button"
+              data-slide="next"
+            >
+              <img
+                src="https://assets.website-files.com/62d52b6d074c2e318f479724/62d90af20b694c03b0d2ecfa_arrow-testimonial.svg"
+                loading="lazy"
+                alt=""
+              />
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container-dd">
+        <div class="sec7left">
+          <div class="sec7text">
+            <h1 id="home-sec7-h1">Bereit zu starten?</h1>
+            <p id="home-sec7-p">
+              Kontaktiere uns jetzt und integriere deine Produkte in die JUHUU
+              App um von allen JUHUU Vorteilen zu profitieren
+            </p>
+            <a class="get-in-touch6" href="./get_in_touch.html"
+              >Get in touch</a
+            >
+          </div>
+        </div>
+
+        <div class="sec7right">
+          <div class="sec7Pic">
+            <img src="./Images/Footer/Team members faded new.webp" alt="teampic" />
+          </div>
+        </div>
+      </div>
+
+          
+    </section>
+
+    <div class="containerfooter">
+      <div class="container">
+        <!-- Footer -->
+        <footer
+          class="text-center text-lg-start text-black"
+          style="background-color: #f3e8fa"
+        >
+          <section class="container">
+            <div class="container text-center text-md-start mt-0 pt-5">
+              <!-- Grid row -->
+              <div class="row mt-5">
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-1">
+                  <!-- Content -->
+                  <div class="logo2 text-left">
+                    <a href="./index.html"
+                      ><img src="./Images/Footer/juhuu_logo.webp" alt="Logo"
+                    /></a>
+                  </div>
+                  <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="
+                      width: 60px;
+                      background-color: #7c4dff;
+                      height: 2px;
+                    "
+                  />
+                  <p id="home-footer-p">Werde Teil der Community!</p>
+                  <div>
+                    <a
+                      href="https://www.facebook.com/people/JUHUU-BikeBox/100066980422418/"
+                      class="text-black me-4"
+                      aria-label="Over facebook page"
+                    >
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a
+                      href="https://www.youtube.com/channel/UCvnF_0V1OPodUzXXk1Vu-5w"
+                      class="text-black me-4"
+                      aria-label="Over youtube page"
+                    >
+                      <i class="fab fa-youtube"></i>
+                    </a>
+
+                    <a
+                      href="https://www.instagram.com/juhuu.app/"
+                      class="text-black me-4"
+                      aria-label="Over instagram page"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/company/juhuu/?originalSubdomain=at"
+                      class="text-black me-4"
+                      aria-label="Over Linkedin page"
+                    >
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-1">
+                  <!-- Links -->
+                  <h2 class="text-uppercase fw-bold" style="font-size: 15px"  id="home-footer-h2" >
+                    JUHUU BikeBox GmbH
+                  </h2>
+                  <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="
+                      width: 60px;
+                      background-color: #7c4dff;
+                      height: 2px;
+                    "
+                  />
+
+                  <a
+                    href="tel:+436609919009"
+                    style="text-decoration: none; color: black"
+                  >
+                    <p><i class="fas fa-phone mr-3"></i> +43 660 9919 009</p>
+                  </a>
+                  <a
+                    href="mailto:office@juhuu.app"
+                    style="text-decoration: none; color: black"
+                  >
+                    <p>
+                      <i class="fas fa-envelope mr-3"></i> office@juhuu.app
+                    </p>
+                  </a>
+                  <a
+                    href="https://www.google.at/maps/place/Treustra%C3%9Fe+22-24,+1200+Wien,+%C3%96sterreich/@48.2286409,16.3668449,17z/data=!3m1!4b1!4m6!3m5!1s0x476d07b45e9087e1:0x5bde630233712e59!8m2!3d48.2286409!4d16.3668449!16s%2Fg%2F11c5dqbbrw?hl=de&entry=ttu"
+                    style="text-decoration: none; color: black"
+                    ><i class="fas fa-home mr-3"></i> Treustraße 22-24, 1200
+                    <p>Wien Austria</p>
+                  </a>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-2">
+                  <!-- Links -->
+                  <h2 class="text-uppercase fw-bold" style="font-size: 15px" id="home-footer-h2_2">
+                    Wichtiges
+                  </h2>
+                  <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="
+                      width: 60px;
+                      background-color: #7c4dff;
+                      height: 2px;
+                    "
+                  />
+
+                  <a
+                    href="https://docs.juhuu.app/agb"
+                    style="text-decoration: none; color: black"
+                  >
+                    <p id="home-footer-p_1"><i class="text-black"></i> AGB</p>
+                  </a>
+                  <a
+                    href="https://juhuu-bikebox.at/en/legal"
+                    style="text-decoration: none; color: black"
+                  >
+                    <p id="home-footer-p_2"><i class="text-black"></i> Datenschutz</p>
+                  </a>
+                  <a
+                    href="https://juhuu-bikebox.at/en/legal"
+                    style="text-decoration: none; color: black"
+                  >
+                    <p id="home-footer-p_3"><i class="text-black"></i> Impressum</p>
+                  </a>
+                  <a
+                    href="https://juhuu-bikebox.at/en/legal"
+                    style="text-decoration: none; color: black"
+                  >
+                    <p id="home-footer-p_4"><i class="text-black"></i> Credits</p>
+                  </a>
+                </div>
+
+                <div class="col-md-5 col-lg-2 col-xl-2 mx-auto mb-2">
+                  <h2 class="text-uppercase fw-bold" style="font-size: 15px" id="home-footer-h2_3">
+                    Download
+                  </h2>
+                  <hr
+                    class="mt-0 d-inline-block mx-auto"
+                    style="
+                      width: 50px;
+                      background-color: #7c4dff;
+                      height: 2px;
+                    "
+                  />
+                  <p>
+                    <i class="text-black"></i
+                    ><a
+                      href="https://play.google.com/store/apps/details?id=com.juhuu_bikebox.juhuu"
+                      ><img
+                        src="./Images/Footer/google_play_download.webp"
+                        alt="google_play_download"
+                        class="googleplay"
+                    /></a>
+                  </p>
+                  <p>
+                    <i class="text-black"></i
+                    ><a
+                      href="https://apps.apple.com/at/app/juhuu-bikebox/id1603108125"
+                      ><img
+                        src="./Images/Footer/app_store_download.webp"
+                        alt="app_store_download"
+                        class="appstore"
+                    /></a>
+                  </p>
+                  <p class="text-nowrap" id="home-footer-p_5">
+                    <a href="https://docs.juhuu.app/apk" class="text-black"
+                      >APK herunterladen</a
+                    >
+                  </p>
+                </div>
+
+                <!-- Grid column for Partner von section -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
+                  <h2
+                    class="text-uppercase fw-bold footerheading"
+                    style="font-size: 15px" id="home-footer-h2_4"
+                  >
+                    Partner von
+                  </h2>
+                  <hr
+                    class="mt-0 d-inline-block mx-auto"
+                    style="
+                      width: 50px;
+                      background-color: #7c4dff;
+                      height: 2px;
+                    "
+                  />
+                  <p>
+                    <i class="text-black"></i
+                    ><a href="https://www.a1.net/"
+                      ><img src="./Images/Footer/a1.webp" alt="a1" class="a1"
+                    /></a>
+                  </p>
+                </div>
+              </div>
+              <div
+                class="text-left p-3 pb-4 footer"
+                style="background-color: #f3e8fa"
+              >
+                &copy; <span id="copyright-year">2024</span> Copyright: JUHUU
+                Bikebox GmbH
+                <p class="text-black" href="https://mdbootstrap.com/">
+                  Apple, the Apple logo, iPhone, and iPad are trademarks of
+                  Apple Inc., registered in the U.S and other countries. App
+                  Store is a service mark of Apple Inc. Google Play and the
+                  Google Play logo are trademarks of Google LLC. All other
+                  trademarks are the property of their respective owners.
+                </p>
+              </div>
+
+              <script>
+                // Get the current year
+                var currentYear = new Date().getFullYear();
+
+                // Update the content of the 'copyright-year' span with the current year
+                document.getElementById("copyright-year").textContent =
+                  currentYear;
+              </script>
+            </div>
+          </section>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
